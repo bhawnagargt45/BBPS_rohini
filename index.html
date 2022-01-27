@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>WORLD IN 2050</title>
+	<link rel="stylesheet" href="beauty.css">
+    <style>
+        *
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+   background: rgb(255, 255, 255);	
+   text-align: center;
+   font-weight: bolder;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	text-align: center;
+	background-color: orange;
+}
+.menu-bar ul li
+{
+	width: auto;
+	margin: 0, 0;
+	padding: 35px;
+	text-decoration: underline;
+}
+.menu-bar ul li a 
+{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+.active, .menu-bar ul li:hover
+{
+	background: rgb(255, 0, 0);
+	border-radius: 3px;
+}
+.sub-menu-2
+{
+	display: none;
+}
+.menu-bar ul li:hover  .sub-menu-2
+{
+	display: block;
+	position: absolute;
+	background: orange;
+	margin-top: 15px;
+	margin-left: 0px;
+}
+.menu-bar ul li:hover  .sub-menu-2 ul
+{
+   display: block;
+   margin: 10px;
+}
+.menu-bar ul li:hover  .sub-menu-2 ul li hover
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child
+{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:hover
+{
+	color: #b2ff00;
+}
+.sub-menu-3
+{
+	display: none;
+}
+.menu-bar ul li:hover  .sub-menu-3
+{
+	display: block;
+	position: absolute;
+	background: orange;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover  .sub-menu-3 ul
+{
+   display: block;
+   margin: 10px;
+}
+.menu-bar ul li:hover  .sub-menu-3 ul li:hover
+{
+    color: #b2ff00;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li:last-child
+{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li:hover
+{
+	color: #b2ff00;
+}
+.sub-menu-4
+{
+	display: none;
+	margin-right: 15px;
+}
+.menu-bar ul li:hover  .sub-menu-4
+{
+	display: block;
+	position: absolute;
+	background: orange;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover  .sub-menu-4 ul
+{
+   display: block;
+   margin: 10px;
+}
+.menu-bar ul li:hover  .sub-menu-4 ul li hover
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li:last-child
+{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li:hover
+{
+	color: #b2ff00;
+}
+.logo {
+    margin: 0;
+    background: url(Bal-Bharati-Public-School-Rohini-Delhi.png);
+    background-size: 85px 85px;
+    float: left;
+    width: 85px;
+    height: 85px;
+}
+.abc {
+	text-align: center;
+}
+    </style>
+</head>
+<body>
+<div class="menu-bar">
+    <div class="logo"></div>
+   <ul>
+   	<li class="active"><a href="#">Home</a>
+   	</li><li><a href="#">Technology</a>
+            <div class="sub-menu-2">
+     	<ul>
+     		<li><a href="ai.html">AI</a></li>
+     		<li><a href="transport.html">Transport</a></li>
+     		<li><a href="robo.html">Robots</a></li>
+            <li><a href="drones.html">Drone</a></li>
+            <li><a href="electricgadgets.html">Electrical Gadgets</a></li>
+     	</ul>
+     </div>
+   	</li>
+   	<li><a href="#">Culture</a>
+           <div class="sub-menu-3">
+     	<ul>
+     		<li><a href="food.html">Food</a></li>
+     		<li><a href="clothes.html">Clothes</a></li>
+     		<li><a href="architecture.html">Architecture</a></li>
+     </ul></div>
+   	</li>
+   	<li><a href="#">Map</a>
+           <div class="sub-menu-4">
+     	<ul>
+     		<li><a href="climate.html">Climate</a></li>
+     		<li><a href="pop.html">Population</a></li>
+     	</ul>
+     </div>
+   	</li>
+   
+    </ul>
+</div>
+<hr/>
+<div class="abc">
+<img src="2050_banner1.jpg">
+</div>
+</body>
+    
+</html>
